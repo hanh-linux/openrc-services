@@ -6,6 +6,7 @@ depend()
 {
 	provide dev
 	need dev-mount sysfs
+	use loadmodules
 }
 
 find_mdev()
