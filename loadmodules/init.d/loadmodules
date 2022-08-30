@@ -1,0 +1,9 @@
+#!/usr/bin/openrc-run
+
+start() {
+	echo "Enter modules to load (empty if not needed)" 
+	read modules 
+	if test -n "$modules"; then
+		modprobe $modules
+	fi
+}
