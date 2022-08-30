@@ -1,2 +1,3 @@
 # openrc-services
-Fork of artix/openrc-services for Hanh Linux packages
+Collection of OpenRC service files taken from Artix, Gentoo. 
+
